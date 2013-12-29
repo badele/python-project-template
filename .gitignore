@@ -37,4 +37,3 @@ nosetests.xml
 
 # my ignore
 htmlcov
-initproject.py
