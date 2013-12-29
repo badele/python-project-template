@@ -59,7 +59,7 @@ setup(
     scripts=[],
     entry_points={
         'console_scripts': [
-            "{{PROJECTNAME}} = {{PROJECTNAME}}.{{PROJECTNAME}}:main",
+            #"{{PROJECTNAME}} = {{PROJECTNAME}}.{{PROJECTNAME}}:main",
         ],
     },
 
