@@ -44,7 +44,12 @@ Here the steps for create a new python project
 
         mkvirtualenv --no-site-packages -p /usr/bin/python2.7 env_projectname
 
-#. Run the minimal test::
+#. (Optional) Run the minimal test::
 
         pip install -r requirements/test.txt
         make test
+
+#. (Optional) Test minimal application::
+
+        make install
+        projectname -h
