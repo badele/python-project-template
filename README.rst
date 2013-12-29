@@ -40,6 +40,7 @@ Here the steps for create a new python project
 #. Edit the ``PROJECT`` variables in the initproject.py and run::
 
         ./initproject.py
+        rm ./initproject.py
 
 #. Verify the personal text in this files::
 
