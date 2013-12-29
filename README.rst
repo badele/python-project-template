@@ -1,16 +1,3 @@
-.. image:: https://travis-ci.org/badele/python-project-template.png?branch=master
-   :target: https://travis-ci.org/badele/python-project-template
-
-.. image:: https://coveralls.io/repos/badele/python-project-template/badge.png
-   :target: https://coveralls.io/r/badele/python-project-template
-
-.. disableimage:: https://pypip.in/v/python-project-template/badge.png
-   :target: https://crate.io/packages/python-project-template/
-
-.. disableimage:: https://pypip.in/d/python-project-template/badge.png
-   :target: https://crate.io/packages/python-project-template/
-
-
 Since one year, i create more and more python projects. That for this reason i have decided create a Python template. This template is ready for create a Python project with:
 
 * Setuptools_ for push python code to Pypi_ site 
