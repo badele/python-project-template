@@ -37,6 +37,13 @@ Remove unsupported github tags:
     return content
 
 
+def required(filename):
+    with open(filename) as f:
+        packages = f.read().splitlines()
+
+    return packages
+
+
 setup(
     name="{{PROJECTNAME}}",
     version="{{VERSION}}",
@@ -46,7 +53,7 @@ setup(
     author_email="{{EMAIL}}",
     url="https://github.com/{{USERNAME}}/{{PROJECTNAME}}",
     license="{{LICENSE}}",
-    install_requires=[],
+    install_requires=required('requirements/base.txt'),
     setup_requires=[],
     tests_require=[
         'pep8',
